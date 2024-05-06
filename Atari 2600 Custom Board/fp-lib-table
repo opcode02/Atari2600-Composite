@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Atari2600_Libary")(type "KiCad")(uri "${KIPRJMOD}/Atari2600_Libary.pretty")(options "")(descr ""))
+)
