@@ -576,6 +576,22 @@
     [
       "d26a1e82-f8cb-48a3-8cce-edbb66ba228a",
       "Root"
+    ],
+    [
+      "a2d1e247-d2f5-477d-8aa5-a0ea226cf368",
+      "CPU_Cartridge"
+    ],
+    [
+      "26ae4fed-9b89-427f-9909-2070ce671822",
+      "RIOT_DB9"
+    ],
+    [
+      "1512de0d-3d07-49f3-86b5-e084744fd125",
+      "TIA_POWER"
+    ],
+    [
+      "9cf3e399-02a1-4fa7-a3f8-062a21609052",
+      "Video_Output"
     ]
   ],
   "text_variables": {}
