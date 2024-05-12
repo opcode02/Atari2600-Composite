@@ -1535,6 +1535,549 @@
 				)
 			)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Small_Filled"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small_Filled"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Potentiometer_Trim_US"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1829,6 +2372,196 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:2N3906"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2N3906"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2N3906_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2N3906_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2182,6 +2915,12 @@
 		(uuid "01b726c0-35ef-4bdf-9f15-d2f36f1881da")
 	)
 	(junction
+		(at 55.88 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12fa4f95-bdce-4f19-bf8b-c23d1d7254a2")
+	)
+	(junction
 		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2218,6 +2957,36 @@
 		(uuid "4ab1e24d-8d2e-4271-8277-8de53eab9e50")
 	)
 	(junction
+		(at 86.36 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5323bde4-ede1-4d24-b57f-44e24d602ee1")
+	)
+	(junction
+		(at 81.28 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7780702e-6a2b-4308-8d81-bb556817a50c")
+	)
+	(junction
+		(at 86.36 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b7d72b9-2560-41ae-8299-80f099fba0f4")
+	)
+	(junction
+		(at 101.6 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88890ff7-061b-4a77-8ccf-31f6db87e7fe")
+	)
+	(junction
+		(at 101.6 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99f92ccb-aafb-4f22-bc24-0b2f28618958")
+	)
+	(junction
 		(at 217.17 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2230,16 +2999,38 @@
 		(uuid "a76ddf39-3245-48df-a545-da59bcaad791")
 	)
 	(junction
+		(at 86.36 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abb2667f-48ae-4628-9a09-7de158b7b3c7")
+	)
+	(junction
 		(at 238.76 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c55fc7d5-2e7c-4d86-9a49-a8cdb6ab0f6e")
 	)
 	(junction
+		(at 114.3 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4e962d0-f53b-4e0c-a505-e3ee9ca8e26e")
+	)
+	(junction
 		(at 76.2 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7b78414-173a-4e76-a929-e9df6ae346f3")
+	)
+	(wire
+		(pts
+			(xy 68.58 78.74) (xy 68.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01dcae68-54c6-4a9d-8c05-72bc9776e16f")
 	)
 	(wire
 		(pts
@@ -2250,6 +3041,26 @@
 			(type default)
 		)
 		(uuid "0239f0aa-6956-4b4c-9d46-89d60459c9f1")
+	)
+	(wire
+		(pts
+			(xy 86.36 77.47) (xy 76.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027313e1-87e7-4bf8-ab4a-241ffb26036d")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02abb91a-8f80-4535-a665-0e63693d0597")
 	)
 	(wire
 		(pts
@@ -2270,6 +3081,26 @@
 			(type default)
 		)
 		(uuid "0a087a88-03e7-42a1-9c33-9e1cf59a5cf4")
+	)
+	(wire
+		(pts
+			(xy 101.6 77.47) (xy 86.36 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db8bb29-3244-4043-8b76-d8fc35523982")
+	)
+	(wire
+		(pts
+			(xy 55.88 48.26) (xy 55.88 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b6d960-9951-42bd-9ec4-284dd9632549")
 	)
 	(wire
 		(pts
@@ -2333,6 +3164,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 74.93) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f593fa-e66c-4657-a648-787b085e1929")
+	)
+	(wire
+		(pts
 			(xy 76.2 148.59) (xy 76.2 157.48)
 		)
 		(stroke
@@ -2353,6 +3194,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 95.25) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a92f8f-6bf4-435f-a075-ca929b9b1d83")
+	)
+	(wire
+		(pts
 			(xy 152.4 97.79) (xy 163.83 97.79)
 		)
 		(stroke
@@ -2370,6 +3221,16 @@
 			(type default)
 		)
 		(uuid "28b3df47-5bbd-4dd8-8059-4a7e7b3dde1d")
+	)
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ab6cb3-2e48-471c-96c2-e98314d23636")
 	)
 	(wire
 		(pts
@@ -2453,6 +3314,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 107.95) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4503e7ca-5fd2-4660-8aa6-bcae135f5e16")
+	)
+	(wire
+		(pts
 			(xy 191.77 69.85) (xy 204.47 69.85)
 		)
 		(stroke
@@ -2503,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 77.47) (xy 114.3 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55301365-c269-4a08-a49e-3ced3b6efd82")
+	)
+	(wire
+		(pts
 			(xy 86.36 152.4) (xy 90.17 152.4)
 		)
 		(stroke
@@ -2533,6 +3414,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 107.95) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d01f407-883f-4cca-b16b-865ba7cb5e5f")
+	)
+	(wire
+		(pts
 			(xy 152.4 69.85) (xy 163.83 69.85)
 		)
 		(stroke
@@ -2550,6 +3441,16 @@
 			(type default)
 		)
 		(uuid "62b0bdd5-fd3a-40bf-bfa3-fb0a043d43c0")
+	)
+	(wire
+		(pts
+			(xy 55.88 96.52) (xy 55.88 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c44022-5afc-48f6-a2f6-fc1b69df545a")
 	)
 	(wire
 		(pts
@@ -2580,6 +3481,26 @@
 			(type default)
 		)
 		(uuid "6d830f78-e5c1-45c3-8957-29ea76e1f2d0")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 76.2 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e773f8c-98bc-458a-8685-174af6ca5119")
+	)
+	(wire
+		(pts
+			(xy 55.88 76.2) (xy 55.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71684a30-c403-4388-afa8-9c577b52eedd")
 	)
 	(wire
 		(pts
@@ -2633,6 +3554,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 77.47) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78bd1f31-096e-49cf-bf8e-af39cd1d0fa1")
+	)
+	(wire
+		(pts
 			(xy 76.2 167.64) (xy 76.2 166.37)
 		)
 		(stroke
@@ -2683,6 +3614,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 77.47) (xy 101.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916f3ea4-93ea-4830-a43c-095f155c0068")
+	)
+	(wire
+		(pts
 			(xy 191.77 74.93) (xy 204.47 74.93)
 		)
 		(stroke
@@ -2723,6 +3664,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 95.25) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96c44087-677a-429b-ade4-75b95468fc8e")
+	)
+	(wire
+		(pts
 			(xy 191.77 67.31) (xy 204.47 67.31)
 		)
 		(stroke
@@ -2730,6 +3681,16 @@
 			(type default)
 		)
 		(uuid "97fd6e30-fea9-4ab0-b7bc-38fc1a17d1b3")
+	)
+	(wire
+		(pts
+			(xy 86.36 114.3) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9984e949-824d-416e-af2c-c284b4023125")
 	)
 	(wire
 		(pts
@@ -2743,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 77.47) (xy 86.36 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4099fd-c795-40bd-856f-819c4ccc32ef")
+	)
+	(wire
+		(pts
 			(xy 228.6 45.72) (xy 228.6 57.15)
 		)
 		(stroke
@@ -2753,6 +3724,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 62.23) (xy 68.58 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a503881d-2520-4f67-b632-1c6a5258c049")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.47) (xy 76.2 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9a9c3f8-2a97-4812-9716-38a3329c24e1")
+	)
+	(wire
+		(pts
 			(xy 59.69 171.45) (xy 59.69 172.72)
 		)
 		(stroke
@@ -2760,6 +3751,26 @@
 			(type default)
 		)
 		(uuid "aa973fee-1c8b-4280-ab24-2935e6b0d606")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1ad553-141a-469f-8485-b44262c7ad79")
+	)
+	(wire
+		(pts
+			(xy 66.04 92.71) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad501736-a4f9-4524-bab8-7d7b95413553")
 	)
 	(wire
 		(pts
@@ -2780,6 +3791,16 @@
 			(type default)
 		)
 		(uuid "b0eb1da3-9c77-48e2-9b95-a2ce192c6764")
+	)
+	(wire
+		(pts
+			(xy 163.83 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c4baf0-7ec0-4d3c-90c0-c616c531009c")
 	)
 	(wire
 		(pts
@@ -2833,6 +3854,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 107.95) (xy 90.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c901df3b-72df-4d1e-8a7b-f52f7f048849")
+	)
+	(wire
+		(pts
+			(xy 55.88 83.82) (xy 68.58 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac5f548-5906-461d-8e9f-e9c4169d033f")
+	)
+	(wire
+		(pts
 			(xy 228.6 57.15) (xy 254 57.15)
 		)
 		(stroke
@@ -2860,6 +3901,16 @@
 			(type default)
 		)
 		(uuid "cc48ea97-8c21-457a-929d-35659a99443a")
+	)
+	(wire
+		(pts
+			(xy 81.28 69.85) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceefd58b-95ce-4c24-bffd-b169f6fd1207")
 	)
 	(wire
 		(pts
@@ -2903,6 +3954,36 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 105.41) (xy 66.04 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4d3133e-c26b-4bec-a6a6-ee96e9eb7274")
+	)
+	(wire
+		(pts
+			(xy 81.28 74.93) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ad7dec-7f4a-416b-9b21-c5229f391a51")
+	)
+	(wire
+		(pts
+			(xy 86.36 114.3) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab4722f-8472-425c-a86a-a990ad26c913")
+	)
+	(wire
+		(pts
 			(xy 59.69 171.45) (xy 62.23 171.45)
 		)
 		(stroke
@@ -2933,6 +4014,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 92.71) (xy 66.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e736d5ed-30c0-407a-a42f-01a19f01957a")
+	)
+	(wire
+		(pts
 			(xy 191.77 90.17) (xy 204.47 90.17)
 		)
 		(stroke
@@ -2940,6 +4031,16 @@
 			(type default)
 		)
 		(uuid "ecd0d98a-2638-48c3-adc6-85d9840c1319")
+	)
+	(wire
+		(pts
+			(xy 55.88 63.5) (xy 55.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef443c0e-7899-43c8-b8c2-b4dfa00fc55c")
 	)
 	(wire
 		(pts
@@ -4045,6 +5146,145 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Trim_US")
+		(at 68.58 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "292d60f2-375b-4dc1-b98e-826e0e7bc8a4")
+		(property "Reference" "RV1"
+			(at 66.04 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500k"
+			(at 74.422 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer, US symbol"
+			(at 68.58 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7a94f20-7e49-4e44-815c-e0800b7e6f99")
+		)
+		(pin "2"
+			(uuid "ed920283-40a5-4c16-9cb5-c1437b6db469")
+		)
+		(pin "3"
+			(uuid "e1e58207-014c-49b9-a619-715d06315848")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 55.88 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33564433-dd92-4016-b52e-e468b40f23a0")
+		(property "Reference" "#PWR055"
+			(at 59.69 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 52.07 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 55.88 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abfa3dd1-c011-4b13-b944-89d88d23b70b")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Atari2600_Library:TIA-NTSC")
 		(at 166.37 49.53 0)
 		(unit 1)
@@ -4629,6 +5869,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 81.28 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "623b2f91-36a8-4ed0-8fd2-f2d93987862e")
+		(property "Reference" "#PWR061"
+			(at 81.28 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91040bbb-b972-45d6-9490-a08e922bab25")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 29.21 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4763,6 +6069,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 81.28 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bcf8a97-7d0e-49a8-adfb-1dd07d587650")
+		(property "Reference" "C18"
+			(at 85.09 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 85.09 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.2452 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d03693af-0633-4324-b5d6-89d3a20e23f4")
+		)
+		(pin "1"
+			(uuid "87caefa5-c083-41c3-85a3-d38da99e240d")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 222.25 97.79 0)
 		(unit 1)
@@ -4823,6 +6199,159 @@
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75300079-3958-4595-a5d4-bfedc1f8bca2")
+		(property "Reference" "#PWR058"
+			(at 101.6 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa2fc314-a334-4f51-b249-23c1ec3fd17c")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small_Filled")
+		(at 55.88 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77304fe6-ec69-452e-a1a2-42b3157f1762")
+		(property "Reference" "D3"
+			(at 50.8 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDLL914"
+			(at 45.72 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol, filled shape"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b387580d-768c-454b-afdd-ba6f261a03e4")
+		)
+		(pin "2"
+			(uuid "a5181067-3387-4c2a-b070-58efec9cd217")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4965,6 +6494,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f4fe753-410c-4eeb-9c63-f22952d9aa2e")
+		(property "Reference" "#PWR059"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c66c00fd-ee67-4bb0-8965-522bc3a718c2")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 93.98 152.4 90)
 		(unit 1)
@@ -5027,6 +6622,76 @@
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85b5f9ca-eaf7-4692-b7b6-6c3b91a7d4b4")
+		(property "Reference" "R14"
+			(at 68.58 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "390"
+			(at 68.58 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.024 101.346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f08e81c0-5b3f-4a93-b8ea-e44769725646")
+		)
+		(pin "1"
+			(uuid "b23babb1-038a-4b4a-b2b7-de6bbd1bff05")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5235,6 +6900,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D_Small_Filled")
+		(at 55.88 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9292cd26-0c19-4422-aa07-89944a3d469e")
+		(property "Reference" "D2"
+			(at 52.07 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FDLL914"
+			(at 46.228 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol, filled shape"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d89d79b6-93eb-495b-b9ab-dbe15b1ce465")
+		)
+		(pin "2"
+			(uuid "4129664a-a2da-435c-82da-23bac4bbda8c")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 139.7 31.75 0)
 		(unit 1)
@@ -5436,6 +7188,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 93.98 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a196f7bd-9ad3-4b71-9bbf-efef20245eba")
+		(property "Reference" "Y1"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.579545 MHz"
+			(at 93.98 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 93.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "57bc3750-28d7-4cb4-8e11-9d3cad74b82c")
+		)
+		(pin "1"
+			(uuid "a6a39d51-b0d9-4bcc-81ef-0db20df570a8")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 55.88 172.72 270)
 		(unit 1)
@@ -5573,6 +7392,282 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 76.2 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b636dd17-3e14-4f3c-814f-5ebfa3e1dce5")
+		(property "Reference" "#PWR062"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 76.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "818f166f-d09b-4c00-8f1c-f488912e664c")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3db4264-7cc6-4a8e-a16c-728e6534a77d")
+		(property "Reference" "C19"
+			(at 90.17 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 90.17 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.3252 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6fddfad-b201-4b78-a4e4-29ca46c4ce4c")
+		)
+		(pin "1"
+			(uuid "72934afd-2391-40c9-9f18-434cbfa3a56c")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 86.36 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3fbecfe-7c77-4dbd-9b9e-1ca59d525da6")
+		(property "Reference" "R15"
+			(at 88.9 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150k"
+			(at 88.9 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.344 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 86.36 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f9bbc42-39f8-47e5-87bf-1c57761d3c26")
+		)
+		(pin "1"
+			(uuid "dde18c79-c97a-4400-887c-82db6495d0af")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 114.3 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8e0b2e1-cd7c-420a-8bfd-8c14774dc10d")
+		(property "Reference" "R17"
+			(at 116.84 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 116.84 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.284 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62e84edc-bcd4-4531-a042-0dd80ebbfca6")
+		)
+		(pin "1"
+			(uuid "ab44228c-bb57-4bf3-b657-6dd7d41106ac")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 238.76 34.29 180)
 		(unit 1)
@@ -5639,6 +7734,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 55.88 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd76c04b-5005-4d6e-81c3-1d2a0588718c")
+		(property "Reference" "#PWR056"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd99239f-7672-4cba-9e71-55e790056eb2")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 115.57 0)
 		(unit 1)
@@ -5699,6 +7860,151 @@
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:2N3906")
+		(at 73.66 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0513042-389b-483e-87d4-50c61d0ac718")
+		(property "Reference" "Q1"
+			(at 77.47 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3906"
+			(at 76.2 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 78.74 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4cceb806-7e3e-4505-99b8-dc0cc0320b51")
+		)
+		(pin "3"
+			(uuid "52bdfbcb-45ad-4581-af8e-16160aeab01f")
+		)
+		(pin "1"
+			(uuid "22bde7b8-ef72-48ba-896e-4f8998c59eb2")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 101.6 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1fbfa65-b979-46ee-bd31-56620ca8096e")
+		(property "Reference" "C20"
+			(at 105.41 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18p"
+			(at 105.41 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.5652 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93e14a43-0c0a-429c-8e31-cd1218ea71fd")
+		)
+		(pin "1"
+			(uuid "5e64bb61-ac8a-4962-9da1-eb20c5b12652")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -5991,6 +8297,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18ab5df-9b6f-4476-898e-a45f7dbc5c53")
+		(property "Reference" "#PWR060"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97611515-afa7-4179-bcbb-7b381a419a8f")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 57.15 157.48 0)
 		(unit 1)
@@ -6054,6 +8426,212 @@
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
 					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 55.88 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87bc22a-274a-4a8b-b1e7-d49c6d2a09f8")
+		(property "Reference" "R13"
+			(at 58.42 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 58.42 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.864 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e518c7f-6ddb-477c-964d-6e5930a00156")
+		)
+		(pin "1"
+			(uuid "60de2222-f15e-4104-8924-bdac76b5733f")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbf18ee3-2589-4bab-b21c-c6bae6ae05d2")
+		(property "Reference" "#PWR057"
+			(at 86.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc228a80-a527-482b-8370-67a5a7992e1a")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 101.6 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc876b2f-8db9-4fbb-905d-533f4ceec491")
+		(property "Reference" "R16"
+			(at 104.14 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "15k"
+			(at 104.14 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.584 91.186 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72eacccc-a3d5-4552-a839-57c3212e69b8")
+		)
+		(pin "1"
+			(uuid "15ae430d-1fcf-4a66-9819-8a620a4f2e9b")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "R16")
 					(unit 1)
 				)
 			)
