@@ -1401,7 +1401,7 @@
 			)
 		)
 		(property "Footprint" "SW_B3F-4050_OMR"
-			(at 0 0 0)
+			(at -2.286 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1411,7 @@
 			)
 		)
 		(property "Datasheet" "B3F-4050"
-			(at 0 0 0)
+			(at 1.016 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1682,7 +1682,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "B3F-4050_1_1"
+			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
 				(name "1"
@@ -1700,7 +1702,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "2"
@@ -1718,7 +1720,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -2.54 0)
 				(length 7.62)
 				(name "3"
@@ -1736,7 +1738,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -2.54 180)
 				(length 7.62)
 				(name "4"
@@ -2874,7 +2876,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "RCJ-042_1_1"
+			(pin passive line
 				(at 0 -7.62 180)
 				(length 7.62)
 				(name "1"
@@ -2892,7 +2896,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 0 180)
 				(length 7.62)
 				(name "2"
@@ -3314,7 +3318,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -2.54 -33.02 0)
 				(length 2.54)
 				(name "AUDIO_1"
@@ -3566,7 +3570,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 25.4 -38.1 180)
 				(length 2.54)
 				(name "PHI_2"
@@ -3836,7 +3840,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -2.54 -10.16 0)
 				(length 2.54)
 				(name "PHI_0"
