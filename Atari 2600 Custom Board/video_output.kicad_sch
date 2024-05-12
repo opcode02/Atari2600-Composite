@@ -622,7 +622,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "RCJ-042_1_1"
+				(pin passive line
 					(at 0 -7.62 180)
 					(length 7.62)
 					(name "1"
@@ -640,7 +642,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 0 0 180)
 					(length 7.62)
 					(name "2"

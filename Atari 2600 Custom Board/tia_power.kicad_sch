@@ -144,7 +144,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin passive line
 					(at -2.54 -33.02 0)
 					(length 2.54)
 					(name "AUDIO_1"
@@ -396,7 +396,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 25.4 -38.1 180)
 					(length 2.54)
 					(name "PHI_2"
@@ -666,7 +666,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at -2.54 -10.16 0)
 					(length 2.54)
 					(name "PHI_0"
@@ -2667,6 +2667,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:VBUS"
 			(power)
 			(pin_numbers hide)
@@ -2927,10 +3023,22 @@
 		(uuid "13e704f4-d6ee-452e-93cb-7d3acca3a9bb")
 	)
 	(junction
+		(at 76.2 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1543279d-c260-47b7-a6e9-63bad307482f")
+	)
+	(junction
 		(at 228.6 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a2e57ca-0999-415e-b79c-44af7cbbfbbb")
+	)
+	(junction
+		(at 36.83 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38c542d4-2b92-4af2-b761-f756b0bf479c")
 	)
 	(junction
 		(at 157.48 100.33)
@@ -3094,6 +3202,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 151.13) (xy 76.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f27874e-ab32-45e9-8af9-f92d61042e45")
+	)
+	(wire
+		(pts
 			(xy 55.88 48.26) (xy 55.88 58.42)
 		)
 		(stroke
@@ -3174,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 148.59) (xy 76.2 157.48)
+			(xy 76.2 148.59) (xy 76.2 151.13)
 		)
 		(stroke
 			(width 0)
@@ -4192,8 +4310,8 @@
 			)
 		)
 	)
-	(global_label "CLOCK_OUT"
-		(shape input)
+	(global_label "PHI_0"
+		(shape output)
 		(at 152.4 59.69 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4204,7 +4322,7 @@
 		)
 		(uuid "23f1aad5-94bd-447b-9499-5d1cf56665be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.65 59.69 0)
+			(at 144.0324 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4280,8 +4398,8 @@
 			)
 		)
 	)
-	(global_label "CLOCK_IN"
-		(shape output)
+	(global_label "PHI_2"
+		(shape input)
 		(at 204.47 87.63 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4292,7 +4410,7 @@
 		)
 		(uuid "4ac21a6d-58ef-493b-b5a3-6d2a88eacbc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.5267 87.63 0)
+			(at 212.8376 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4640,7 @@
 			)
 		)
 	)
-	(global_label "~{RDY}"
+	(global_label "READY"
 		(shape output)
 		(at 135.89 57.15 180)
 		(fields_autoplaced yes)
@@ -4534,7 +4652,7 @@
 		)
 		(uuid "a42e0b05-f34d-454a-980b-9cff8bea4327")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.2762 57.15 0)
+			(at 127.0386 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,6 +5123,73 @@
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 102.87 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0debd8b5-4081-478f-9099-3d5944d07b1c")
+		(property "Reference" "#FLG01"
+			(at 104.775 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 106.68 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 102.87 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8fe27bb-7085-4860-88d3-c64ddef009a8")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7386,6 +7571,140 @@
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 76.2 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68234b0-5077-4bfe-98d9-536b4f7dec83")
+		(property "Reference" "#FLG02"
+			(at 74.295 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 72.39 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36c2e5f2-6ef8-4db1-8833-f48756da3a98")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 36.83 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46a15d4-59d5-42b5-a35d-25d8be17eecd")
+		(property "Reference" "#FLG03"
+			(at 38.735 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 36.83 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60096d9a-6691-4e1f-ade6-d82b4c6f4d09")
+		)
+		(instances
+			(project "atari2600"
+				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

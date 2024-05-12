@@ -3564,7 +3564,7 @@
 			)
 		)
 	)
-	(global_label "CLOCK_IN"
+	(global_label "PHI_2"
 		(shape input)
 		(at 167.64 44.45 0)
 		(fields_autoplaced yes)
@@ -3576,7 +3576,7 @@
 		)
 		(uuid "98a1751a-6696-49ce-a101-b18f85c5d6af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.6967 44.45 0)
+			(at 176.0076 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
