@@ -3181,22 +3181,22 @@
 	)
 	(global_label "CLOCK_IN"
 		(shape output)
-		(at 215.9 87.63 180)
+		(at 204.47 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4ac21a6d-58ef-493b-b5a3-6d2a88eacbc6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8433 87.63 0)
+			(at 216.5267 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5488,10 +5488,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "de696d62-36e4-4a01-bcc5-175ea7eff6ee")
+			(uuid "de696d62-36e4-4a01-bcc5-175ea7eff6ef")
 		)
 		(pin "1"
-			(uuid "0bb48e78-ffb0-49b6-b051-d4a8be431d31")
+			(uuid "0bb48e78-ffb0-49b6-b051-d4a8be431d32")
 		)
 		(instances
 			(project "atari2600"
