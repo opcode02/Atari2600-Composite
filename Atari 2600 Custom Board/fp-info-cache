@@ -1,4 +1,4 @@
-23341364101634405
+23344795200548250
 Atari2600_Libary
 CD74HC4050M96_16-SOIC_M
 
@@ -7,12 +7,26 @@ CD74HC4050M96
 16
 16
 Atari2600_Libary
+CUI_RCJ-044
+
+
+0
+2
+2
+Atari2600_Libary
 J200-CatridgeConn
 
 
 0
 24
 24
+Atari2600_Libary
+RCJ-042_CUD
+
+RCJ-042 
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

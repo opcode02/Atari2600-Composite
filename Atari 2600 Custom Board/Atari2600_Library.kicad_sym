@@ -1764,7 +1764,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 27.94 10.16 0)
+			(at 0.762 1.27 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1772,14 +1772,14 @@
 			)
 		)
 		(property "Value" "CD74HC4050M96"
-			(at 27.94 7.62 0)
+			(at 7.366 -24.384 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "D16"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1790,7 +1790,7 @@
 			)
 		)
 		(property "Datasheet" "CD74HC4050M96"
-			(at 0 0 0)
+			(at -8.382 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,56 +1835,8 @@
 			)
 		)
 		(symbol "CD74HC4050M96_0_1"
-			(polyline
-				(pts
-					(xy 7.62 -22.86) (xy 48.26 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -22.86)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 -22.86) (xy 48.26 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 48.26 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
-				(at 0 0 0)
+				(at -7.62 -20.32 0)
 				(length 7.62)
 				(name "VCC"
 					(effects
@@ -1902,7 +1854,7 @@
 				)
 			)
 			(pin output line
-				(at 55.88 -15.24 180)
+				(at 21.59 -10.16 180)
 				(length 7.62)
 				(name "4Y"
 					(effects
@@ -1920,7 +1872,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -12.7 180)
+				(at -7.62 -12.7 0)
 				(length 7.62)
 				(name "5A"
 					(effects
@@ -1938,7 +1890,7 @@
 				)
 			)
 			(pin output line
-				(at 55.88 -10.16 180)
+				(at 21.59 -12.7 180)
 				(length 7.62)
 				(name "5Y"
 					(effects
@@ -1956,7 +1908,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 55.88 -7.62 180)
+				(at -7.62 -17.78 0)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -1974,7 +1926,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -5.08 180)
+				(at -7.62 -15.24 0)
 				(length 7.62)
 				(name "6A"
 					(effects
@@ -1992,7 +1944,7 @@
 				)
 			)
 			(pin output line
-				(at 55.88 -2.54 180)
+				(at 21.59 -15.24 180)
 				(length 7.62)
 				(name "6Y"
 					(effects
@@ -2010,7 +1962,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 55.88 0 180)
+				(at 21.59 -17.78 180)
 				(length 7.62)
 				(name "NC"
 					(effects
@@ -2028,7 +1980,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -2.54 0)
+				(at 21.59 -2.54 180)
 				(length 7.62)
 				(name "1Y"
 					(effects
@@ -2046,7 +1998,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -5.08 0)
+				(at -7.62 -2.54 0)
 				(length 7.62)
 				(name "1A"
 					(effects
@@ -2064,7 +2016,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -7.62 0)
+				(at 21.59 -5.08 180)
 				(length 7.62)
 				(name "2Y"
 					(effects
@@ -2082,7 +2034,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -7.62 -5.08 0)
 				(length 7.62)
 				(name "2A"
 					(effects
@@ -2100,7 +2052,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -12.7 0)
+				(at 21.59 -7.62 180)
 				(length 7.62)
 				(name "3Y"
 					(effects
@@ -2118,7 +2070,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -15.24 0)
+				(at -7.62 -7.62 0)
 				(length 7.62)
 				(name "3A"
 					(effects
@@ -2136,7 +2088,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 0)
+				(at 21.59 -20.32 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -2154,7 +2106,7 @@
 				)
 			)
 			(pin input line
-				(at 55.88 -17.78 180)
+				(at -7.62 -10.16 0)
 				(length 7.62)
 				(name "4A"
 					(effects
@@ -2169,6 +2121,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "CD74HC4050M96_1_1"
+			(rectangle
+				(start 0 0)
+				(end 13.97 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
@@ -2668,6 +2633,542 @@
 					(effects
 						(font
 							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RCJ-042"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -20.32 7.62 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "RCJ-042"
+			(at -20.32 5.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RCJ-042_CUD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "RCJ-042"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "RCJ-042"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RCJ-042_CUD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RCJ-042_0_1"
+			(polyline
+				(pts
+					(xy -33.02 -10.16) (xy -7.62 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -33.02 2.54) (xy -33.02 -10.16)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -27.94 -5.08) (xy -22.86 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -27.94 0) (xy -27.94 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -25.4 -7.62) (xy -25.4 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.86 -5.08) (xy -22.86 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -22.86 0) (xy -27.94 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -17.78 -2.54) (xy -19.05 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -16.51 0) (xy -17.78 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -10.16) (xy -7.62 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -7.62) (xy -25.4 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 0) (xy -16.51 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 2.54) (xy -33.02 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 -7.62 180)
+				(length 7.62)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 180)
+				(length 7.62)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "RCJ-044"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -7.62 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "RCJ-044"
+			(at -7.62 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "RCJ-044:CUI_RCJ-044"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.02"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "11.6 mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "RCJ-044_0_0"
+			(rectangle
+				(start -7.62 -5.08)
+				(end 7.62 5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.715 -0.254) (xy -5.08 -0.254)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.715 2.54) (xy -5.715 -0.254)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -5.08 -0.254)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy 7.62 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -0.254) (xy -4.445 -0.254)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 -0.254) (xy -4.445 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy -5.715 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 1.27) (xy -3.175 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 2.54) (xy -1.905 1.27)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 2.54) (xy 7.62 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 12.7 -2.54 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
 						)
 					)
 				)
