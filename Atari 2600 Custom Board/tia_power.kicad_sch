@@ -4936,7 +4936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01b0e072-7f8b-4787-afd9-4598964fcdeb")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR058"
 			(at 102.87 173.99 0)
 			(effects
 				(font
@@ -4986,7 +4986,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR044")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5002,7 +5002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07daaa9e-b469-488d-a347-8a5c6f25a327")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR054"
 			(at 76.2 152.4 0)
 			(effects
 				(font
@@ -5052,7 +5052,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR040")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5068,7 +5068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a0023f3-ba61-4133-8692-a4f7a91d10c2")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 161.29 106.6799 0)
 			(effects
 				(font
@@ -5122,7 +5122,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5138,7 +5138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0debd8b5-4081-478f-9099-3d5944d07b1c")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 104.775 152.4 0)
 			(effects
 				(font
@@ -5189,7 +5189,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -5204,7 +5204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b562aa5-9c86-471b-8025-b09d09ec03c6")
-		(property "Reference" "C15"
+		(property "Reference" "C11"
 			(at 221.996 44.196 0)
 			(effects
 				(font
@@ -5258,7 +5258,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C15")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5274,7 +5274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25dec34f-9749-4e8b-940d-67dfb9585213")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR056"
 			(at 76.2 173.99 0)
 			(effects
 				(font
@@ -5324,7 +5324,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR041")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5412,7 +5412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33564433-dd92-4016-b52e-e468b40f23a0")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR048"
 			(at 59.69 101.6 0)
 			(effects
 				(font
@@ -5463,7 +5463,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR055")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5479,7 +5479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37e15384-3735-48df-a70b-717af30c9150")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 177.8 45.72 0)
 			(effects
 				(font
@@ -5645,7 +5645,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5661,7 +5661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a3e8560-7ab6-46b2-b7bb-b5ddee231e43")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR041"
 			(at 162.56 40.64 0)
 			(effects
 				(font
@@ -5711,7 +5711,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5726,7 +5726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45d407cc-b58e-4d1d-9718-12b0322d341c")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 56.134 165.862 90)
 			(effects
 				(font
@@ -5778,7 +5778,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5794,7 +5794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4925359c-9b85-4752-b935-705b40996a30")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR038"
 			(at 217.17 27.94 0)
 			(effects
 				(font
@@ -5844,7 +5844,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR052")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -5860,7 +5860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8cd20c-e4d3-4809-ad02-f2bd1b67aa73")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -5911,7 +5911,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -5927,7 +5927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f946e4e-c4b2-4bec-8743-92f5ac374b8e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR061"
 			(at 36.83 189.23 0)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR038")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5992,7 +5992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60534bf6-4b2f-41b3-8793-a0770211a688")
-		(property "Reference" "C17"
+		(property "Reference" "C13"
 			(at 243.84 44.196 0)
 			(effects
 				(font
@@ -6046,7 +6046,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C17")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -6062,7 +6062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "623b2f91-36a8-4ed0-8fd2-f2d93987862e")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR044"
 			(at 81.28 55.88 0)
 			(effects
 				(font
@@ -6112,7 +6112,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR061")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6128,7 +6128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "637f1005-41b2-43ab-aa83-3360478bcc39")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR060"
 			(at 29.21 189.23 0)
 			(effects
 				(font
@@ -6178,7 +6178,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR039")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6193,7 +6193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "670d6f31-8b86-43ac-9024-cfd6ae9aa475")
-		(property "Reference" "C14"
+		(property "Reference" "C10"
 			(at 210.82 44.196 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C14")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bcf8a97-7d0e-49a8-adfb-1dd07d587650")
-		(property "Reference" "C18"
+		(property "Reference" "C14"
 			(at 85.09 64.7699 0)
 			(effects
 				(font
@@ -6317,7 +6317,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C18")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d43a0a-ff9a-4ce9-aa79-94924f3ad813")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 222.25 104.14 0)
 			(effects
 				(font
@@ -6383,7 +6383,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6399,7 +6399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75300079-3958-4595-a5d4-bfedc1f8bca2")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR053"
 			(at 101.6 132.08 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR058")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6464,7 +6464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77304fe6-ec69-452e-a1a2-42b3157f1762")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 50.8 59.182 90)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -6552,7 +6552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a30c511-0bc4-43d4-8818-7768150ecf2a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR055"
 			(at 102.87 152.4 0)
 			(effects
 				(font
@@ -6602,7 +6602,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR043")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c2d19b7-fbab-4c48-82bd-2a5d9ccbb71f")
-		(property "Reference" "C12"
+		(property "Reference" "C20"
 			(at 106.68 162.5599 0)
 			(effects
 				(font
@@ -6672,7 +6672,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C12")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6688,7 +6688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4fe753-410c-4eeb-9c63-f22952d9aa2e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR050"
 			(at 114.3 107.95 0)
 			(effects
 				(font
@@ -6738,7 +6738,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR059")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6754,7 +6754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8397bfb6-8923-4fac-a7df-c394d3c0f652")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 93.98 146.05 90)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6822,7 +6822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b5f9ca-eaf7-4692-b7b6-6c3b91a7d4b4")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 68.58 100.3299 0)
 			(effects
 				(font
@@ -6876,7 +6876,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6892,7 +6892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88df2af8-65a9-44d2-b69a-7b3dd202f496")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 142.24 36.8299 0)
 			(effects
 				(font
@@ -6946,7 +6946,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6962,7 +6962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8aacf53f-cb07-4fbf-a4d1-ef4035b591eb")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR057"
 			(at 86.36 173.99 0)
 			(effects
 				(font
@@ -7012,7 +7012,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR042")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7028,7 +7028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91d490e9-63e5-4023-850c-2ee4125fd0fe")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR037"
 			(at 205.74 27.94 0)
 			(effects
 				(font
@@ -7078,7 +7078,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR051")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9292cd26-0c19-4422-aa07-89944a3d469e")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 52.07 71.628 90)
 			(effects
 				(font
@@ -7165,7 +7165,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cbdca57-bc2f-4373-8032-1ce0ff7d33b7")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR036"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -7231,7 +7231,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR046")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7246,7 +7246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9fa0d282-afef-47a6-8ab4-0da9f0443189")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR045"
 			(at 222.25 99.06 0)
 			(effects
 				(font
@@ -7297,7 +7297,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR049")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7312,7 +7312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a03b2aed-3ba3-48c2-9312-3d1ced958802")
-		(property "Reference" "C16"
+		(property "Reference" "C12"
 			(at 233.426 44.196 0)
 			(effects
 				(font
@@ -7366,7 +7366,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C16")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7448,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1ad42d1-7ada-4866-b0e5-070f59ebab80")
-		(property "Reference" "R10"
+		(property "Reference" "R18"
 			(at 56.642 178.1781 90)
 			(effects
 				(font
@@ -7500,7 +7500,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R10")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7516,7 +7516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a252d152-9abb-4a16-b15c-b4c6aaec966d")
-		(property "Reference" "C10"
+		(property "Reference" "C18"
 			(at 78.74 162.1281 0)
 			(effects
 				(font
@@ -7570,7 +7570,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C10")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7586,7 +7586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68234b0-5077-4bfe-98d9-536b4f7dec83")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 74.295 151.13 0)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7720,7 +7720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b636dd17-3e14-4f3c-814f-5ebfa3e1dce5")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR049"
 			(at 76.2 97.79 0)
 			(effects
 				(font
@@ -7770,7 +7770,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR062")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7786,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3db4264-7cc6-4a8e-a16c-728e6534a77d")
-		(property "Reference" "C19"
+		(property "Reference" "C16"
 			(at 90.17 120.6499 0)
 			(effects
 				(font
@@ -7840,7 +7840,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C19")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7856,7 +7856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3fbecfe-7c77-4dbd-9b9e-1ca59d525da6")
-		(property "Reference" "R15"
+		(property "Reference" "R11"
 			(at 88.9 90.1699 0)
 			(effects
 				(font
@@ -7910,7 +7910,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R15")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8e0b2e1-cd7c-420a-8bfd-8c14774dc10d")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 116.84 90.1699 0)
 			(effects
 				(font
@@ -7980,7 +7980,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7996,7 +7996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb325c30-b2a8-4805-beff-1dc0b7632530")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR040"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -8046,7 +8046,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR054")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -8062,7 +8062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd76c04b-5005-4d6e-81c3-1d2a0588718c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR042"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -8112,7 +8112,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR056")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8128,7 +8128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd8c03c5-821d-44ee-b933-2d426af0b4fa")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 157.48 121.92 0)
 			(effects
 				(font
@@ -8178,7 +8178,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8269,7 +8269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1fbfa65-b979-46ee-bd31-56620ca8096e")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 105.41 120.6499 0)
 			(effects
 				(font
@@ -8323,7 +8323,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8339,7 +8339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98be699-e711-413e-a3b0-feff6d4ac7d7")
-		(property "Reference" "C11"
+		(property "Reference" "C19"
 			(at 90.17 162.5599 0)
 			(effects
 				(font
@@ -8393,7 +8393,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "C11")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -8409,7 +8409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1fdbe46-f1bd-4b91-9739-ae26c89071a4")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR039"
 			(at 228.6 27.94 0)
 			(effects
 				(font
@@ -8459,7 +8459,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR053")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8558,7 +8558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6563245-e479-4d02-af95-c1bbe81631ba")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR059"
 			(at 68.58 171.45 0)
 			(effects
 				(font
@@ -8609,7 +8609,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR037")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -8625,7 +8625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f18ab5df-9b6f-4476-898e-a45f7dbc5c53")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR043"
 			(at 68.58 55.88 0)
 			(effects
 				(font
@@ -8675,7 +8675,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR060")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8690,7 +8690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1aa50fc-02c1-4f21-844f-1a22f2a010a6")
-		(property "Reference" "SW7"
+		(property "Reference" "SW6"
 			(at 58.928 159.512 0)
 			(effects
 				(font
@@ -8744,7 +8744,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "SW7")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -8760,7 +8760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f87bc22a-274a-4a8b-b1e7-d49c6d2a09f8")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 58.42 91.4399 0)
 			(effects
 				(font
@@ -8814,7 +8814,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8830,7 +8830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbf18ee3-2589-4bab-b21c-c6bae6ae05d2")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR052"
 			(at 86.36 132.08 0)
 			(effects
 				(font
@@ -8880,7 +8880,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "#PWR057")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8896,7 +8896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc876b2f-8db9-4fbb-905d-533f4ceec491")
-		(property "Reference" "R16"
+		(property "Reference" "R12"
 			(at 104.14 90.1699 0)
 			(effects
 				(font
@@ -8950,7 +8950,7 @@
 		(instances
 			(project "atari2600"
 				(path "/d26a1e82-f8cb-48a3-8cce-edbb66ba228a/1512de0d-3d07-49f3-86b5-e084744fd125"
-					(reference "R16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
