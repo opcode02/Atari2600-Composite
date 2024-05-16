@@ -1,4 +1,4 @@
-(footprint "2600 Momentary Switch"
+(footprint "2600-Momentary-Switch"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,10 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "2600 Momentary Switch"
+	(property "Value" "2600-Momentary-Switch"
 		(at -0.5 0.5 -90)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "25526a62-2762-43f7-a1cc-bdeb6822b690")
 		(effects
 			(font
@@ -27,8 +28,8 @@
 			)
 		)
 	)
-	(property "Footprint" "2600 Momentary Switch"
-		(at 0 0 0)
+	(property "Footprint" "2600-Momentary-Switch"
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -89,7 +90,9 @@
 	(pad "1" thru_hole oval
 		(at -7.15 -5.65 270)
 		(size 4.2 6.6)
-		(drill 1.6)
+		(drill oval 1.6 0.8
+			(offset 0 -1.6)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
@@ -98,7 +101,9 @@
 	(pad "2" thru_hole oval
 		(at -7.15 0.5 270)
 		(size 4.2 6.6)
-		(drill 1.6)
+		(drill oval 1.6 1.1
+			(offset 0 -1.6)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
@@ -107,7 +112,9 @@
 	(pad "3" thru_hole oval
 		(at -7.15 6.65 270)
 		(size 4.2 6.6)
-		(drill 1.6)
+		(drill oval 1.6 0.8
+			(offset 0 -1.6)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
@@ -116,7 +123,9 @@
 	(pad "4" thru_hole oval
 		(at 6.15 6.65 270)
 		(size 4.2 6.6)
-		(drill 1.6)
+		(drill oval 1.6 0.8
+			(offset 0 1.6)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
@@ -125,7 +134,9 @@
 	(pad "5" thru_hole oval
 		(at 6.15 0.5 270)
 		(size 4.2 6.6)
-		(drill 1.6)
+		(drill oval 1.6 1.1
+			(offset 0 1.6)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
@@ -134,7 +145,9 @@
 	(pad "6" thru_hole oval
 		(at 6.15 -5.65 270)
 		(size 4.2 6.6)
-		(drill 1.6)
+		(drill oval 1.6 0.8
+			(offset 0 1.6)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
