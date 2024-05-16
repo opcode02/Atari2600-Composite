@@ -4143,7 +4143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 107.6452 165.1 0)
 			(effects
 				(font
@@ -4546,7 +4546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Atari2600_Libary:2600-Toggle-Switch"
 			(at 154.94 100.33 0)
 			(effects
 				(font
@@ -6006,7 +6006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 126.6952 97.79 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Atari2600_Libary:2600-Momentary-Switch"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -6212,7 +6212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 41.6052 146.05 0)
 			(effects
 				(font
@@ -6280,7 +6280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Atari2600_Libary:2600-Momentary-Switch"
 			(at 201.93 77.47 0)
 			(effects
 				(font
@@ -6350,7 +6350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 31.4452 163.83 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 117.8052 147.32 0)
 			(effects
 				(font
@@ -6556,7 +6556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 53.34 0)
 			(effects
 				(font
@@ -6891,7 +6891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm_LongPads"
 			(at 134.62 39.37 0)
 			(effects
 				(font
