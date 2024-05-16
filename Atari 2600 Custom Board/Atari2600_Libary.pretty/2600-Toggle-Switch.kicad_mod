@@ -64,6 +64,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_rect
+		(start -5.5 -9)
+		(end 5.5 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "28122656-a6f5-47de-bdb4-2b6cfa595b2e")
+	)
 	(pad "1" thru_hole oval
 		(at -3.5 -6.18 270)
 		(size 5 3.3)
